@@ -1,6 +1,4 @@
 # Pressure_Velocity_Coupling
-PressureVelocityCoupling
-========================
 
 Overview
 --------
