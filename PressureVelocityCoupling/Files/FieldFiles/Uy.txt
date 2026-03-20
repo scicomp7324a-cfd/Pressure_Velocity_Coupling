@@ -1,0 +1,19 @@
+field Uy
+nCells 100
+
+internalField uniform 0.0
+
+boundaryField
+{
+  movingWall
+  {
+    type fixedValue
+    value uniform 0.0
+  }
+
+  fixedWall
+  {
+    type fixedValue
+    value uniform 0.0
+  }
+}

@@ -1,0 +1,19 @@
+field P
+nCells 100
+
+internalField uniform 0.0
+
+boundaryField
+{
+  movingWall
+  {
+    type fixedGradient
+    value uniform 0.0
+  }
+
+  fixedWall
+  {
+    type fixedGradient
+    value uniform 0.0
+  }
+}
